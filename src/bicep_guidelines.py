@@ -1,3 +1,0 @@
-guidelines = {
-    # Define bicep guidelines
-}

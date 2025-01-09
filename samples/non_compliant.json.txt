@@ -1,0 +1,39 @@
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users/$entity",
+    "id": "string (GUID)", 
+    "displayName": "string",
+    "userPrincipalName": "string",
+    "email": "string",  
+    "firstName": "string", 
+    "lastName": "string",  
+    "position": "string",  
+    "dept": "string",  
+    "Office_Location": "string", 
+    "mobile_phone": "string", 
+    "businessPhones": "string", 
+    "preferredLanguage": "string",
+    "account_enabled": "true", 
+    "createdDate": "2023-01-01T00:00:00Z",  
+    "lastPasswordChange": "2023-01-02T00:00:00Z",  
+    "licenses": [  
+      {
+        "disabled_plans": [ 
+          "string"
+        ],
+        "skuID": "string (GUID)"  
+      }
+    ],
+    "assignedPlans": [
+      {
+        "assignedDate": "datetime", 
+        "capability_status": "string",
+        "service_plan_id": "string (GUID)" 
+      }
+    ],
+    "passwordPolicies": "string",
+    "passwordProfile": {
+      "force_change_password_next_sign_in": true, 
+      "Password": "string"  
+    },
+    "userType": "string"
+  }

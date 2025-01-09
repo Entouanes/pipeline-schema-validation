@@ -1,0 +1,99 @@
+{
+  [
+    {
+      "violation_line": "line 6",
+      "description": "Renamed 'mail' to 'email', violating Microsoft Graph naming conventions.",
+      "type": "naming"
+    },
+    {
+      "violation_line": "line 7",
+      "description": "Renamed 'givenName' to 'firstName', which is inconsistent with standard terminology.",
+      "type": "naming"
+    },
+    {
+      "violation_line": "line 8",
+      "description": "Renamed 'surname' to 'lastName', which is inconsistent with standard terminology.",
+      "type": "naming"
+    },
+    {
+      "violation_line": "line 9",
+      "description": "Renamed 'jobTitle' to 'position', reducing clarity and consistency.",
+      "type": "naming"
+    },
+    {
+      "violation_line": "line 10",
+      "description": "Renamed 'department' to 'dept', using an abbreviation that is discouraged.",
+      "type": "naming"
+    },
+    {
+      "violation_line": "line 11",
+      "description": "Used snake_case ('Office_Location') instead of camelCase ('officeLocation').",
+      "type": "formatting"
+    },
+    {
+      "violation_line": "line 12",
+      "description": "Used snake_case ('mobile_phone') instead of camelCase ('mobilePhone').",
+      "type": "formatting"
+    },
+    {
+      "violation_line": "line 13",
+      "description": "Changed 'businessPhones' from an array to a single string, violating data type consistency.",
+      "type": "datatype"
+    },
+    {
+      "violation_line": "line 16",
+      "description": "Used snake_case ('account_enabled') and an incorrect boolean format (string instead of boolean).",
+      "type": "datatype"
+    },
+    {
+      "violation_line": "line 17",
+      "description": "Renamed 'createdDateTime' to 'createdDate', reducing clarity and predictability.",
+      "type": "naming"
+    },
+    {
+      "violation_line": "line 18",
+      "description": "Renamed 'lastPasswordChangeDateTime' to 'lastPasswordChange', reducing clarity and predictability.",
+      "type": "naming"
+    },
+    {
+      "violation_line": "line 19",
+      "description": "Renamed 'assignedLicenses' to 'licenses', which is less descriptive and inconsistent with Microsoft Graph terminology.",
+      "type": "naming"
+    },
+    {
+      "violation_line": "line 21",
+      "description": "Used snake_case ('disabled_plans') instead of camelCase ('disabledPlans').",
+      "type": "formatting"
+    },
+    {
+      "violation_line": "line 23",
+      "description": "Used camelCase for 'skuID' instead of the correct 'skuId'.",
+      "type": "formatting"
+    },
+    {
+      "violation_line": "line 27",
+      "description": "Renamed 'assignedDateTime' to 'assignedDate', reducing clarity and predictability.",
+      "type": "naming"
+    },
+    {
+      "violation_line": "line 28",
+      "description": "Used snake_case ('capability_status') instead of camelCase ('capabilityStatus').",
+      "type": "formatting"
+    },
+    {
+      "violation_line": "line 29",
+      "description": "Used snake_case ('service_plan_id') instead of camelCase ('servicePlanId').",
+      "type": "formatting"
+    },
+    {
+      "violation_line": "line 35",
+      "description": "Used snake_case ('force_change_password_next_sign_in') instead of camelCase ('forceChangePasswordNextSignIn').",
+      "type": "formatting"
+    },
+    {
+      "violation_line": "line 36",
+      "description": "Capitalized the property name ('Password') instead of using lowercase camelCase ('password').",
+      "type": "formatting"
+    }
+  ]
+}

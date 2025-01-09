@@ -1,0 +1,104 @@
+{
+  [
+    {
+      "violation": "line 3",
+      "description": "Changed data type of 'id' from 'string (GUID)' to 'GUID', which is not descriptive.",
+      "type": "datatype"
+    },
+    {
+      "violation": "line 6",
+      "description": "Renamed 'mail' to 'email', violating Microsoft Graph naming conventions.",
+      "type": "naming"
+    },
+    {
+      "violation": "line 7",
+      "description": "Renamed 'givenName' to 'first_name' and used snake_case, violating naming conventions.",
+      "type": "naming"
+    },
+    {
+      "violation": "line 8",
+      "description": "Renamed 'surname' to 'last_name' and used snake_case, violating naming conventions.",
+      "type": "naming"
+    },
+    {
+      "violation": "line 9",
+      "description": "Renamed 'jobTitle' to 'position', reducing clarity and consistency.",
+      "type": "naming"
+    },
+    {
+      "violation": "line 10",
+      "description": "Renamed 'department' to 'dept', using an abbreviation that is discouraged.",
+      "type": "naming"
+    },
+    {
+      "violation": "line 11",
+      "description": "Changed data type of 'officeLocation' from string to number.",
+      "type": "datatype"
+    },
+    {
+      "violation": "line 12",
+      "description": "Set 'mobilePhone' to null without providing context or a default value.",
+      "type": "datatype"
+    },
+    {
+      "violation": "line 13",
+      "description": "Changed 'businessPhones' from an array to a single string.",
+      "type": "datatype"
+    },
+    {
+      "violation": "line 14",
+      "description": "Changed data type of 'preferredLanguage' from string to boolean.",
+      "type": "datatype"
+    },
+    {
+      "violation": "line 15",
+      "description": "Used snake_case ('account_enabled') and assigned a string ('true') to a boolean field.",
+      "type": "datatype"
+    },
+    {
+      "violation": "line 16",
+      "description": "Renamed 'createdDateTime' to 'creation_date', reducing clarity and predictability.",
+      "type": "naming"
+    },
+    {
+      "violation": "line 17",
+      "description": "Changed 'lastPasswordChangeDateTime' from ISO 8601 datetime string to an integer (UNIX timestamp).",
+      "type": "datatype"
+    },
+    {
+      "violation": "line 20",
+      "description": "Changed 'disabledPlans' from an array to a single string.",
+      "type": "datatype"
+    },
+    {
+      "violation": "line 21",
+      "description": "Used snake_case ('sku_id') instead of camelCase ('skuId').",
+      "type": "formatting"
+    },
+    {
+      "violation": "line 23",
+      "description": "Changed 'assignedPlans' from an array to a single string.",
+      "type": "datatype"
+    },
+    {
+      "violation": "line 24",
+      "description": "Set 'passwordPolicies' to null without context or a default value.",
+      "type": "datatype"
+    },
+    {
+      "violation": "line 26",
+      "description": "Used snake_case ('force_change_password_next_sign_in') and assigned a string ('true') to a boolean field.",
+      "type": "datatype"
+    },
+    {
+      "violation": "line 27",
+      "description": "Changed 'password' from a string to a number.",
+      "type": "datatype"
+    },
+    {
+      "violation": "line 29",
+      "description": "Assigned 'userType' an unclear or unsupported value ('unknown').",
+      "type": "value"
+    }
+  ]
+}
